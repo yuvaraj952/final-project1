@@ -7,8 +7,6 @@
     scroll-behavior: smooth;
     font-family: 'Lato', sans-serif;
 }
-
-/* Navbar Start */
 #navbar{
     background: #f9f9f9;
 }
@@ -41,13 +39,10 @@
     color: white;
 }
 #navbar form button{
-    background: orange;
+    background: black;
     color: white;
     border: none;
 }
-/* Navbar End */
-
-/* Home Section Start */
 .home{
     width: 100%;
     height: 90vh;
@@ -129,9 +124,7 @@
         font-size: 13px;
     }
 }
-/* Home Section End */
 
-/* Section Book Start */
 .book{
     background: #f9f9f9;
     padding: 50px;
@@ -171,7 +164,7 @@
     width: 160px;
     font-size: 16px;
     font-weight: 550;
-    background:orange;
+    background:black;
     color: white;
     margin-top: 10px;
     transition: 0.5s;
@@ -187,13 +180,6 @@
         padding: 20px;
     }
 }
-/* Section Book End */
-
-
-
-
-
-/* Section Packages Start */
 .main-txt h1{
     text-align: center;
     margin-top: 30px;
@@ -237,12 +223,6 @@
     color: white;
     border-radius: 5px;
 }
-/* Section Packages End */
-
-
-
-
-/* Section Services Start */
 .services{
     background: #f9f9f9;
     margin-top: 50px;
@@ -264,13 +244,6 @@
 .services .card .card-body{
     text-align: center;
 }
-/* Section Services End */
-
-
-
-
-
-/* Section Gallary Start */
 .gallary{
     margin-top: 50px;
 }
@@ -286,12 +259,6 @@
 .gallary .card img:hover{
     transform: scale(1.1);
 }
-/* Section Gallary End */
-
-
-
-
-/* About Start */
 .about{
     padding: 50px;
     margin-top: 50px;
@@ -330,12 +297,6 @@
         padding: 0;
     }
 }
-/* About End */
-
-
-
-
-/* Footer Start */
 #footer{
     width: 100%;
     margin-top: 150px;
@@ -364,4 +325,3 @@
 .social-links i:hover{
     background: #f06529;
 }
-/* Footer End *
