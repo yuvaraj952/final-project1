@@ -7,6 +7,8 @@
     scroll-behavior: smooth;
     font-family: 'Lato', sans-serif;
 }
+
+/* Navbar Start */
 #navbar{
     background: #f9f9f9;
 }
@@ -18,10 +20,10 @@
     margin-bottom: 5px;
 }
 #logo span{
-    color:#030e4f;
+    color: #f06529;;
 }
 .navbar-toggler span{
-    color: #030e4f;
+    color: #f06529;
 }
 .navbar-nav{
     margin-left: 20px;
@@ -35,7 +37,7 @@
     transition: 0.5s ease;
 }
 .nav-item .nav-link:hover{
-    background: #030e4f;
+    background:#f06529;
     color: white;
 }
 #navbar form button{
@@ -43,6 +45,9 @@
     color: white;
     border: none;
 }
+/* Navbar End */
+
+/* Home Section Start */
 .home{
     width: 100%;
     height: 90vh;
@@ -69,7 +74,7 @@
 }
 .changecontent::after{
     content: ' ';
-    color:  #030e4f;
+    color: #f06529;
     text-shadow: 0px 1px 1px black;
     animation: changetext 10s infinite linear;
 }
@@ -105,7 +110,7 @@
     transition: 0.5s;
 }
 .home .content a:hover{
-    background:  #030e4f;
+    background:#f06529;
     color: white;
 }
 @media (max-width:850px){
@@ -124,6 +129,9 @@
         font-size: 13px;
     }
 }
+/* Home Section End */
+
+/* Section Book Start */
 .book{
     background: #f9f9f9;
     padding: 50px;
@@ -134,7 +142,7 @@
     font-weight: 600;
 }
 .main-text h1 span{
-    color:  #030e4f;
+    color:#f06529;
 }
 .book .card{
     border-radius: 10px;
@@ -163,7 +171,7 @@
     width: 160px;
     font-size: 16px;
     font-weight: 550;
-    background:  #030e4f;
+    background:orange;
     color: white;
     margin-top: 10px;
     transition: 0.5s;
@@ -179,6 +187,13 @@
         padding: 20px;
     }
 }
+/* Section Book End */
+
+
+
+
+
+/* Section Packages Start */
 .main-txt h1{
     text-align: center;
     margin-top: 30px;
@@ -186,7 +201,7 @@
     text-shadow: 0px 1px 1px black;
 }
 .main-txt h1 span{
-    color:  #030e4f;
+    color: #f06529;
 }
 .packages .card{
     border-radius: 5px;
@@ -207,7 +222,7 @@
     font-size: 15px;
 }
 .checked{
-    color:  #030e4f;
+    color: #f06529;
 }
 .star i{
     font-size: 15px;
@@ -218,10 +233,16 @@
 .packages .card .card-body a{
     padding: 10px;
     text-decoration: none;
-    background:  #030e4f;
+    background: #f06529;
     color: white;
     border-radius: 5px;
 }
+/* Section Packages End */
+
+
+
+
+/* Section Services Start */
 .services{
     background: #f9f9f9;
     margin-top: 50px;
@@ -234,7 +255,7 @@
 .services .card i{
     font-size: 80px;
     text-align: center;
-    color:  #030e4f;
+    color: #f06529;
     margin-top: 20px;
 }
 .services .card .card-body h3{
@@ -243,7 +264,13 @@
 .services .card .card-body{
     text-align: center;
 }
+/* Section Services End */
 
+
+
+
+
+/* Section Gallary Start */
 .gallary{
     margin-top: 50px;
 }
@@ -259,6 +286,12 @@
 .gallary .card img:hover{
     transform: scale(1.1);
 }
+/* Section Gallary End */
+
+
+
+
+/* About Start */
 .about{
     padding: 50px;
     margin-top: 50px;
@@ -282,7 +315,7 @@
     height: 38px;
     border: none;
     border-radius: 5px;
-    background:  #030e4f;
+    background: #f06529;
     color: white;
     letter-spacing: 2px;
     font-weight: 550;
@@ -297,6 +330,12 @@
         padding: 0;
     }
 }
+/* About End */
+
+
+
+
+/* Footer Start */
 #footer{
     width: 100%;
     margin-top: 150px;
@@ -309,7 +348,7 @@
     text-shadow: 0px 0px 1px black;
 }
 #footer h1 span{
-    color:  #030e4f;
+    color: #f06529;
 }
 .social-links i{
     padding: 10px;
@@ -323,5 +362,6 @@
     cursor: pointer;
 }
 .social-links i:hover{
-    background:  #030e4f;
+    background: #f06529;
 }
+/* Footer End *
